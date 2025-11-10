@@ -1,0 +1,361 @@
+/* Styling af Start side */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+.start-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header-bg-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding-top: 220px;
+}
+
+.logo-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+.header-content p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.bottom-buttons {
+  position: absolute;
+  bottom: 80px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 3;
+}
+
+.bottom-buttons p {
+  font-size: 1 rem;
+  color: white;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 0.75rem 1.75rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.primary-btn {
+  color: white;
+  border: 1px solid white;
+}
+
+.primary-btn:hover {
+  background-color: opacity(white, 0.7);
+}
+
+.secondary-btn {
+  background-color: #f8c9dd;
+  color: (var(--color-text-primary));
+}
+
+.secondary-btn:hover {
+  background-color: opacity(#f8c9dd, 0.7);
+}
+
+.bottom-note {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  opacity: 0.8;
+}
+
+/* Styling af Login side */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+.login-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--color-background);
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image-login {
+  width: 80px;
+  height: auto;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.login-header-content h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.login-input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  width: 90%;
+  max-width: 400px;
+  margin: 3rem auto 0 auto;
+}
+
+/* Gruppe til label + input */
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.input-group label {
+  font-size: 1.25rem;
+  font-weight: var(--font-bold);
+  color: var(--color-text-primary);
+  text-align: left;
+}
+
+/* Input felt */
+.login-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #0a2016;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #636364;
+  background-color: var(--color-background);
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+/* Remember me + Forgot password */
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 1rem;
+  color: var(--color-text-primary);
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.remember-me input {
+  accent-color: var(--color-accent);
+}
+
+/* Log in knap */
+.login-btn-section {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12rem;
+}
+.login-btn {
+  width: 90%;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color-accent);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-btn:hover {
+  background-color: var(--color-border);
+}
+
+.cancel-text {
+  align-self: flex-start;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #000000;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+  font-weight: var(--font-bold);
+  opacity: 0.6;
+}
+
+.cancel-text:hover {
+  opacity: 1;
+}
+
+.login-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+/* Styling af Register side */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+.register-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  align-items: center;
+  position: relative;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.logo-register {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-form {
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 5rem;
+}
+
+/* Gruppe til label + input */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-text-primary);
+}
+
+.form-group input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--color-background);
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+/* Fejlmeddelelse */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: left;
+  margin-top: -0.5rem;
+}
+
+/* Knappen nederst */
+.btn-primary {
+  width: 90%;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color-accent);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed; /* Sticky til bunden */
+  bottom: 3rem; /* 2rem afstand fra bunden */
+  left: 50%; /* centreret */
+  transform: translateX(-50%);
+  max-width: 400px;
+  z-index: 10;
+}
+
+.btn-primary:disabled {
+  background-color: #a9a9a9;
+  cursor: not-allowed;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #45a049;
+}

@@ -1,0 +1,68 @@
+{
+  "thread_id": "ASDF-GHJL-MNOP123",
+  "created_at": "2025-11-05T12:00:00",
+  "user_id": "ASDF-GHJL-MNOP",
+  "title": "Best pasta recipe",
+  "messages": [
+    {
+      "type": "prompt",
+      "prompt": {
+        "prompt_id": "promt_id",
+        "created_at": "2025-11-05T12:00:00",
+        "message": "Dear bison, pleas help, i am no good cook, i want pasta"
+      }
+    },
+    {
+      "type": "output",
+      "output": {
+        "output_id": "output_id",
+        "created_at": "2025-11-05T12:00:00",
+        "ordering": 0,
+        "content_type": "text",
+        "text_content": "Sure! Here is an amazing beautiful pasta recipe: ...",
+        "image_url": null
+      }
+    },
+    {
+      "type": "output",
+      "output": {
+        "output_id": "ASDF-GHJL-MNOP3",
+        "created_at": "2025-11-05T12:00:00",
+        "ordering": 1,
+        "content_type": "image",
+        "text_content": null,
+        "image_url": "https://cataas.com/cat"
+      }
+    },
+    {
+      "type": "output",
+      "output": {
+        "output_id": "ASDF-GHJL-MNOP4",
+        "created_at": "2025-11-05T12:00:00",
+        "ordering": 2,
+        "content_type": "text",
+        "text_content": "Here is a beatufiul picture of the dish I have generated for you xoxoxo",
+        "image_url": null
+      }
+    },
+    {
+      "type": "prompt",
+      "prompt": {
+        "prompt_id": "ASDF-GHJL-MNOP5",
+        "created_at": "2025-11-05T12:00:00",
+        "message": "Oh my god thank you so much bison you ahve saved my marriage"
+      }
+    },
+    {
+      "type": "output",
+      "output": {
+        "output_id": "ASDF-GHJL-MNOP6",
+        "created_at": "2025-11-05T12:00:00",
+        "ordering": 0,
+        "content_type": "text",
+        "text_content": "Hahah no worries ask anytime",
+        "image_url": null
+      }
+    }
+  ]
+}

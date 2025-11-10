@@ -1,0 +1,5 @@
+# thomas' lokale udvikler miljø filer
+/flake.lock
+/.envrc
+/.direnv
+/.DS_Store
